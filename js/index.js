@@ -1,10 +1,10 @@
 window.onscroll = changeNav;
 document.getElementById("ham").onclick = slideInNav;
 document.getElementById('slide-in-menu').onclick = hide;
-document.getElementById("lable1").onclick = contactAnimation;
+/* document.getElementById("lable1").onclick = contactAnimation;
 document.getElementById("lable2").onclick = contactAnimation2;
 document.getElementById("lable3").onclick = contactAnimation3;
-document.getElementById("lable4").onclick = contactAnimation4;
+document.getElementById("lable4").onclick = contactAnimation4; */
 
 let toggle = 0;
 
