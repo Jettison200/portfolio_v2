@@ -235,6 +235,8 @@ nav ul li:nth-child(1) {
 #about-container img {
   border-radius: 50%;
   margin: 30px;
+  height: 500px;
+  width: 500px;
   object-fit: cover;
 }
 #about-container p {
@@ -383,7 +385,7 @@ margin:40px 0;
     align-items: center;
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     padding: 15px 0;
     margin: 5px 0;
     transition: .5s all ease-in-out;
@@ -397,102 +399,10 @@ margin:40px 0;
     margin: 5px 0 0 5px;
 }
 .contact-logo{
-    height: 60px;
+    height: 50px;
     margin-right: 20px;
 }
 
-form {
-  color: #fff;
-  font-weight: 700;
-  margin: 0 auto;
-  margin-top: 40px;
-  width: 40vw;
-}
-input {
-  width: 40vw;
-  background-color: transparent;
-  border: 0;
-  border-bottom: 1.5px solid #dfdfdf9c;
-  padding: 10px 0;
-  outline: 0;
-  margin: 10px 0;
-  color: #dfdfdf;
-  font-size: 16px;
-}
-label p {
-  position: relative;
-  top: 10px;
-}
-#contactAnimation {
-  width: 0;
-  background-color: #fff;
-  height: 2px;
-  position: relative;
-  bottom: 12px;
-  transition: 0.8s all ease-in-out;
-}
-#contactAnimation2 {
-  width: 0;
-  background-color: #fff;
-  height: 2px;
-  position: relative;
-  bottom: 12px;
-  transition: 0.8s all ease-in-out;
-}
-#contactAnimation3 {
-  width: 0;
-  background-color: #fff;
-  height: 2px;
-  position: relative;
-  bottom: 12px;
-  transition: 0.8s all ease-in-out;
-}
-#contactAnimation4 {
-  display: block;
-  width: 0;
-  background-color: #fff;
-  height: 2px;
-  position: relative;
-  bottom: 17px;
-  z-index: 1;
-  transition: 0.8s all ease-in-out;
-}
-textarea {
-  width: 40vw;
-  height: 100px;
-  background-color: transparent;
-  border: 0;
-  border-bottom: 1.5px solid #dfdfdfd2;
-  outline: 0;
-  margin: 10px 0;
-  color: #dfdfdf;
-  font-size: 16px;
-  resize: none;
-}
-form button {
-  display: block;
-  margin: auto;
-  font-size: var(--text-font-size);
-  font-weight: 700;
-  width: 200px;
-  padding: 10px 25px;
-  color: #dfdfdf;
-  background-color: #1b1b1b85;
-  outline: 0;
-  border: 1.5px solid #000;
-  transition: 0.45s all ease-in-out;
-  border-radius: 2px;
-  margin-top: 10px;
-  position: relative;
-  cursor: pointer;
-}
-form button:hover {
-  background-color: #1b1b1b;
-  color: #fff;
-}
-form button:active {
-  top: 3px;
-}
 footer {
   background-color: #000;
   height: 60px;
@@ -618,7 +528,8 @@ footer p {
     text-align: left;
   }
   #about-container img {
-    width: 70vw;
+    width: 300px;
+    height: 300px;
   }
   .parallax-window {
     height: 100%;
@@ -674,6 +585,14 @@ footer p {
   }
 }
 @media only screen and (max-width: 375px) {
+    .contact-links-container>a {
+    font-size: 20px;
+    
+    }
+    .contact-logo{
+        height: 40px;
+        margin-right: 10px;
+    }
   .icon {
     bottom: 300px;
   }
